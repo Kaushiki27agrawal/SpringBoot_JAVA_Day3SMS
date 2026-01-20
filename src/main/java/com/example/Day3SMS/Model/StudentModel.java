@@ -10,8 +10,7 @@ import java.util.Collection;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Documented
-@Document(collection="students")
+@Document(collection = "students")
 
 public class StudentModel {
     @Id
